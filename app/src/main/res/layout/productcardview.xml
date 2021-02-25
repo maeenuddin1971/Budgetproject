@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cardname"
+            android:textSize="20dp"
+
+            android:textStyle="bold"
+            ></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_below="@+id/cardname"
+            android:layout_height="wrap_content"
+            android:id="@+id/cardpresentmoney"
+            android:text="Khoroch"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            ></TextView>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/khoroch"
+            android:textSize="20dp"
+            android:layout_below="@+id/cardname"
+            android:layout_toRightOf="@+id/cardpresentmoney"
+            ></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Baki ache"
+            android:textSize="20dp"
+            android:id="@+id/ache"
+            android:layout_below="@id/cardpresentmoney"
+            ></TextView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/achemoney"
+            android:layout_below="@+id/cardpresentmoney"
+            android:layout_toRightOf="@+id/ache"
+            ></TextView>
+    </RelativeLayout>
+
+
+
+
+
+</androidx.cardview.widget.CardView>
